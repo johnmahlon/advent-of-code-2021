@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		472BBFC6275BFBF000945D35 /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472BBFC5275BFBF000945D35 /* Day3.swift */; };
+		472BBFC8275BFC0E00945D35 /* day3_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 472BBFC7275BFC0E00945D35 /* day3_1.txt */; };
 		47B9D06F275BA39200EA0FF7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B9D06E275BA39200EA0FF7 /* main.swift */; };
 		47B9D076275BA3B600EA0FF7 /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B9D075275BA3B600EA0FF7 /* Day1.swift */; };
 		47B9D083275BA87C00EA0FF7 /* day1_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 47B9D079275BA6C600EA0FF7 /* day1_1.txt */; };
@@ -30,6 +32,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		472BBFC5275BFBF000945D35 /* Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
+		472BBFC7275BFC0E00945D35 /* day3_1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day3_1.txt; sourceTree = "<group>"; };
 		47B9D06B275BA39200EA0FF7 /* Advent of Code */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Advent of Code"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47B9D06E275BA39200EA0FF7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		47B9D075275BA3B600EA0FF7 /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
@@ -58,6 +62,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		472BBFC4275BFBDE00945D35 /* Day 3 */ = {
+			isa = PBXGroup;
+			children = (
+				472BBFC5275BFBF000945D35 /* Day3.swift */,
+				472BBFC7275BFC0E00945D35 /* day3_1.txt */,
+			);
+			path = "Day 3";
+			sourceTree = "<group>";
+		};
 		47B9D062275BA39200EA0FF7 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +93,7 @@
 			children = (
 				47B9D085275BA93200EA0FF7 /* util */,
 				47B9D06E275BA39200EA0FF7 /* main.swift */,
+				472BBFC4275BFBDE00945D35 /* Day 3 */,
 				47B9D088275BB17300EA0FF7 /* Day 2 */,
 				47B9D078275BA53D00EA0FF7 /* Day 1 */,
 			);
@@ -193,6 +207,7 @@
 			files = (
 				47B9D08E275BB52100EA0FF7 /* day2_1.txt in Resources */,
 				47B9D083275BA87C00EA0FF7 /* day1_1.txt in Resources */,
+				472BBFC8275BFC0E00945D35 /* day3_1.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47B9D076275BA3B600EA0FF7 /* Day1.swift in Sources */,
+				472BBFC6275BFBF000945D35 /* Day3.swift in Sources */,
 				47B9D08A275BB17D00EA0FF7 /* Day2.swift in Sources */,
 				47B9D087275BA94200EA0FF7 /* Util.swift in Sources */,
 				47B9D06F275BA39200EA0FF7 /* main.swift in Sources */,
