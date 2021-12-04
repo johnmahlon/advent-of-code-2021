@@ -7,5 +7,18 @@
 
 import Foundation
 
-print("Hello, World!")
+
+func main() {
+
+//    Day1().puzzle1(bundle)
+//    Day1().puzzle2(bundle)
+    
+    let day2 = Day2()
+    day2.part1()
+    day2.part2()
+    
+}
+
+main()
+
 
